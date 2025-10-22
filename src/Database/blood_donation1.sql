@@ -1,6 +1,15 @@
 CREATE DATABASE IF NOT EXISTS blood_donation;
 USE blood_donation;
-
+SELECT * FROM Doctor;
+SELECT * FROM Patients;
+SELECT * FROM Donors;
+SELECT * FROM Blood_Inventory;
+SELECT * FROM BLOOD_BANK;
+SELECT * FROM Donation_Event;
+SELECT * FROM Donors_DonationEvent;
+SELECT * FROM Doctor_BloodBank;
+SELECT * FROM Request;
+SELECT * FROM ACCOUNTT;
 -- Doctors
 CREATE TABLE IF NOT EXISTS Doctor (
     doctor_id          VARCHAR(20) PRIMARY KEY,
@@ -48,7 +57,7 @@ CREATE TABLE IF NOT EXISTS ACCOUNTT(
 	id 			 VARCHAR(20) 										PRIMARY KEY, 
 	email 		 VARCHAR(255)										UNIQUE NOT NULL,
 	password 	 VARCHAR(255) 										NOT NULL, 
-	role 		 ENUM ('Patient', 'Doctor', 'BankStaff', 'Admin')	NOT NULL,
+	role 		 ENUM ('Patient', 'Doctor')	NOT NULL,
 	is_active 	 BOOLEAN 											DEFAULT TRUE,
 	time_created TIMESTAMP 											DEFAULT CURRENT_TIMESTAMP,
     patient_id 	 VARCHAR(20),
