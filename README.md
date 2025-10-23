@@ -41,58 +41,13 @@ This project focuses on creating an efficient and humanitarian blood management 
 
 ---
 
-## 💻 Installation and Startup Guide
-
-To run this application in a local environment, follow these steps:
-
-### 1. Prerequisites
-
-* [Java Development Kit (JDK) 11+](https://www.oracle.com/java/technologies/downloads/)
-* [Apache Maven](https://maven.apache.org/download.cgi) (for Spring Boot project management)
-* A Database Management System (PostgreSQL or MySQL)
-* [Git](https://git-scm.com/)
-
-### 2. Project Setup
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone [YOUR_REPOSITORY_LINK]
-    cd blood-donation-system
-    ```
-2.  **Database Configuration:**
-    * Create a new database instance in PostgreSQL/MySQL.
-    * Update the Spring Boot configuration file (`application.properties` or `application.yml`) with your DB connection details.
-    ```properties
-    # Example in application.properties
-    spring.datasource.url=jdbc:postgresql://localhost:5432/blood_db
-    spring.datasource.username=[username]
-    spring.datasource.password=[password]
-    spring.jpa.hibernate.ddl-auto=update # or none
-    ```
-3.  **Build and Run the Spring Boot Application (Backend):**
-    ```bash
-    mvn clean install
-    mvn spring-boot:run
-    ```
-4.  **Access the Application:**
-    The application should be available at `http://localhost:8080` (or the port you configured).
-
----
-
-## 🤝 Contributing
-
-You can contribute to this project by opening an Issue to report bugs or suggest new features. Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed guidelines on submitting contributions via Pull Requests.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
+## 🤝 Contribution
+You can contribute to this project by opening an Issue to report bugs or suggest new features. For information regarding our team's task assignments and internal workflow, please refer to the documentation located in the report file folder.
 
 ---
 
 ## 📞 Contact
 
-* **Your Name/Development Team:** [Name/Team]
-* **Support Email:** [Your Email]
-* **GitHub:** [@Your\_GitHub\_Username](YOUR\_GITHUB\_LINK)
+* ** Leader:** [Phạm Nguyễn Minh Mẫn]
+* **Support Email:** [phamminh1312005@gmail.com]
+* **GitHub:** [@Your\_GitHub\_Username](https://github.com/MinhMan1301)
