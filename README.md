@@ -50,4 +50,4 @@ You can contribute to this project by opening an Issue to report bugs or suggest
 
 * **Leader:** [Phạm Nguyễn Minh Mẫn]
 * **Support Email:** [phamminh1312005@gmail.com]
-* **GitHub:** [MinhMan1301]((https://github.com/MinhMan1301))
+* **GitHub:** [MinhMan1301](https://github.com/MinhMan1301)
