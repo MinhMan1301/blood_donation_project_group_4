@@ -48,6 +48,6 @@ You can contribute to this project by opening an Issue to report bugs or suggest
 
 ## 📞 Contact
 
-* ** Leader: ** [Phạm Nguyễn Minh Mẫn]
-* ** Support Email: ** [phamminh1312005@gmail.com]
-* ** GitHub: ** [@Your\_GitHub\_Username](https://github.com/MinhMan1301)
+* **Leader:** [Phạm Nguyễn Minh Mẫn]
+* **Support Email:** [phamminh1312005@gmail.com]
+* **GitHub:** [MinhMan1301]((https://github.com/MinhMan1301))
