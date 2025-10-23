@@ -8,7 +8,7 @@ A comprehensive management system built to optimize the entire **blood donation 
 
 This project focuses on creating an efficient and humanitarian blood management process:
 
-###🔑 Primary Functions:
+### 🔑 Primary Functions:
 
 * **Donor Management:**
     * Detailed profile registration, including donation history, health status, and blood type.
@@ -21,7 +21,7 @@ This project focuses on creating an efficient and humanitarian blood management 
     * **Appointment Booking:** Donors can proactively schedule donation appointments via the website, reducing waiting times.
 * **Donor Relationship Management:** Tracking and analyzing donor participation to build suitable recognition and loyalty programs.
 
-###🔒 Unique/Proposed Features (Highlights):
+### 🔒 Unique/Proposed Features (Highlights):
 
 * **Geo-analysis System:** Analyzes and displays a map of donor density by blood type in surrounding hospital areas, aiding in more effective blood drive organization decisions.
 * **Blood Traceability:** Allows the donor to track how their blood unit was used (information is anonymized to protect the recipient's privacy).
