@@ -37,7 +37,7 @@ The system is built on a robust architecture designed for data integrity and com
 | **Source Control** | **GitHub** | Managing code versions, tracking issues, and supporting collaborative development. |
 | **Design Tools** | **Figma, draw.io, ERD Plus** | Designing the UI/UX and creating the detailed data models (ERD/Schema). |
 
-### 2. 📊 (Schema.png)
+### 2. 📊 Schema
 
 The relational database design features a normalized structure to handle key entities and their complex relationships:
 
@@ -46,7 +46,7 @@ The relational database design features a normalized structure to handle key ent
 * **Workflow:** `request` connects patients/doctors to the inventory.
 * **Junction Tables (Many-to-Many):** `doctor_bloodbank` (Doctor working at Bank) and `donors_donationevent` (Donor enrolls in Event).
 
-### 3. 📈 Entity-Relationship Diagram (ERD\_Cardinality\_ratio.drawio.png)
+### 3. 📈 Entity-Relationship Diagram (drawio)
 
 The ERD visualizes the conceptual model, highlighting the cardinality of relationships, ensuring data accuracy:
 
