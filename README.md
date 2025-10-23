@@ -50,7 +50,7 @@ The relational database design features a normalized structure to handle key ent
 
 The ERD visualizes the conceptual model, highlighting the cardinality of relationships, ensuring data accuracy:
 
-* ** 🧵 Key Relationships: **
+* **🧵 Key Relationships:**
     * `Account` has a **One-to-One** relationship with `Patients`, `Donors`, and `Doctor`.
     * `Doctor` can `manage` multiple `Blood_Bank`s **(1:N)** and `work_at` a `Blood_Bank` **(1:N)**.
     * A `Request` involves one `Patient` and is fulfilled by units from the `Blood_Inventory`.
